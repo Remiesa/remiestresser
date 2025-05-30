@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
             Save and see your changes instantly.
           </li>
         </ol>
+        <SpeedInsights/>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center"></footer>
     </div>
