@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function Home() {
   return (
@@ -13,18 +14,13 @@ export default function Home() {
           priority
         />
         <ol className="list-inside list-disc text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Hello World
-          </li>
+          <li className="mb-2 tracking-[-.01em]">Hello World</li>
           <li className="tracking-[-.01em]">
             Save and see your changes instantly.
           </li>
         </ol>
-
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-
-      </footer>
+      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center"></footer>
     </div>
   );
 }
